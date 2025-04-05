@@ -4,7 +4,7 @@ import transferFunds from "./TransferFunds.json";
 //NFT MARKETPLACE
 //--------POLYGON AMOY TESTNET
 export const NFTMarketplaceAddress =
-  "0x2ABFbbc18378c5fe4914e93017572496616F4966";
+  "0x37f3C33714428a52DAc401213902cf204133e916";
 //--------LOCALHOST
 // export const NFTMarketplaceAddress =
 //   "0x5FbDB2315678afecb367f032d93F642f64180aa3";
@@ -12,7 +12,7 @@ export const NFTMarketplaceABI = nftMarketplace.abi;
 
 //TRANSFER FUNDS
 export const transferFundsAddress =
-  "0xC779Ba65c7911516b0b4F2B755807a6c85E6d84C";
+  "0xd5a6421b8788Eb6743c97d41cCB95c9a61F840A1";
 export const transferFundsABI = transferFunds.abi;
 //
 

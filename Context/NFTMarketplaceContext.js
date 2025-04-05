@@ -112,8 +112,8 @@ export const NFTMarketplaceProvider = ({ children }) => {
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: `80810407a3595d8041d8`,
-            pinata_secret_api_key: `48e9862ab8dc9fd489e5a73ebd7e09d7c62495eab9035adcbd5ec17dcb6fca74`,
+            pinata_api_key: `85df1f4bd0357870280f`,
+            pinata_secret_api_key: `078ff8145e3058b42ae6b292ba072c4eec2c2d7becf5d8a2d6a4d86b578ea76d`,
             "Content-Type": "multipart/form-data",
           },
         });
@@ -143,8 +143,8 @@ export const NFTMarketplaceProvider = ({ children }) => {
         url: "https://api.pinata.cloud/pinning/pinJSONToIPFS",
         data: data,
         headers: {
-          pinata_api_key: `80810407a3595d8041d8`,
-          pinata_secret_api_key: `48e9862ab8dc9fd489e5a73ebd7e09d7c62495eab9035adcbd5ec17dcb6fca74`,
+          pinata_api_key: `85df1f4bd0357870280f`,
+          pinata_secret_api_key: `078ff8145e3058b42ae6b292ba072c4eec2c2d7becf5d8a2d6a4d86b578ea76d`,
           "Content-Type": "application/json",
         },
       });
